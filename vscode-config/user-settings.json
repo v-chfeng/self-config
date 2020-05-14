@@ -1,0 +1,32 @@
+{
+    "python.pythonPath": "D:\\ProgramData\\Anaconda2\\envs\\hubble-lens\\python.exe", 
+    "window.zoomLevel": 0,
+    "editor.detectIndentation": false,
+    "git.autofetch": true,
+    "terminal.integrated.rendererType": "dom",
+    "git.enableSmartCommit": true,
+    "workbench.iconTheme": "vscode-icons",
+    "sync.gist": "4eadbd32c90717d318723fc56b2c3e37",
+    "editor.renderIndentGuides": false,
+    "enableTelemetry": true,
+    "todo-tree.tree.showScanModeButton": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "workbench.activityBar.visible": true,
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "switch:command"
+    ],
+    "cmake.configureOnOpen": true,
+    "editor.renderControlCharacters": false,
+    "editor.renderWhitespace": "all",
+    "gitlens.gitCommands.closeOnFocusOut": true,
+    "php.suggest.basic": false,
+    "php.validate.executablePath": "D:/xampp/php/php.exe",
+    "php.executablePath": "D:/xampp/php/php.exe",
+    "files.associations": {
+        // 支持注释的json标准
+        "*.json": "jsonc"  
+    }
+}
