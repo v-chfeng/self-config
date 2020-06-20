@@ -32,12 +32,13 @@
                 if (workbook.Sheets.hasOwnProperty(sheet)) {
                     fromTo = workbook.Sheets[sheet]['!ref'];
                     console.log(fromTo);
-                    persons = persons.concat(XLSX.utils.sheet_to_json(workbook.Sheets[sheet]));
+                    console.log(XLSX.utils.sheet_to_json(workbook.Sheets[sheet]))
+                    // persons = persons.concat(XLSX.utils.sheet_to_json(workbook.Sheets[sheet]));
                     // break; // 如果只取第一张表，就取消注释这行
                 }
             }
             //在控制台打印出来表格中的数据
-            console.log(persons);
+            // console.log(persons);
         };
         // 以二进制方式打开文件
         fileReader.readAsBinaryString(files[0]);

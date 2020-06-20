@@ -1,0 +1,4 @@
+{
+    "editor.renderControlCharacters": true, // 显示控制符
+    "editor.renderWhitespace": "all" // 显示空白符
+}
